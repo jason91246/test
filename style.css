@@ -1,0 +1,101 @@
+<style>div {
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+div ul {
+  padding-top: 0px;
+  /* 文字外框上下*/
+  padding-left: 20px;
+  /* 文字外框左右*/
+  list-style: none;
+}
+
+div ul li {
+  margin-bottom: 50px;
+}
+
+/* 外框間距*/
+div ul li a {
+  display: block;
+  /* 顯示為區塊 */
+  width: 11%;
+  margin-right: 20px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  border: #fff solid 1px;
+  /* 邊線為 #fff 顏色，為實線 1px的寬度 */
+  color: #fff;
+  /* 內容文字為 #fff 顏色 */
+  text-decoration: none;
+  /* 文字底線不顯示 */
+  border-radius: 15px;
+  /* 邊框圓角6px */
+  background-color: #0008;
+  /* rgb 用 0,0,0 為黑色 a 設定 0.6 代表60％的透明度*/
+}
+
+div ul li a:hover {
+  border: #ffffff solid 1px;
+  /* 邊線為 #ffffff 顏色，為實線 1px的寬度 */
+  color: #ffffff;
+  /* 內容文字為 #ffffff 顏色 */
+  background-color: #343333;
+}
+
+div ul li a {
+  font-size: 11pt;
+  /* 內容文字大小 */
+  font-family: 微軟正黑體;
+  /* 內容文字字體 */
+  text-align: center;
+  /* 內容文字對齊 */
+}
+
+div ul li p {
+  display: block;
+  /* 顯示為區塊 */
+  width: 15%;
+  margin-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border: #fff solid 1px;
+  /* 邊線為 #fff 顏色，為實線 1px的寬度 */
+  color: #fff;
+  /* 內容文字為 #fff 顏色 */
+  text-decoration: none;
+  /* 文字底線不顯示 */
+  border-radius: 15px;
+  /* 邊框圓角6px */
+  background-color: #0008;
+  /* rgb 用 0,0,0 為黑色 a 設定 0.6 代表60％的透明度*/
+}
+
+div ul li p:hover {
+  border: #ffffff solid 1px;
+  /* 邊線為 #ffffff 顏色，為實線 1px的寬度 */
+  color: #ffffff;
+  /* 內容文字為 #ffffff 顏色 */
+  background-color: #343333;
+}
+
+div ul li p {
+  font-size: 20pt;
+  /* 內容文字大小 */
+  font-family: 微軟正黑體;
+  /* 內容文字字體 */
+  text-align: center;
+  /* 內容文字對齊 */
+}
+
+div ul li p {
+  padding-top: 20px;
+  /* 文字外框上下*/
+  padding-left: 0px;
+  /* 文字外框左右*/
+  list-style: none;
+}
+
+</style>
